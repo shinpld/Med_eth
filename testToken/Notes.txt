@@ -1,0 +1,9 @@
+
+==== Truffle Console Commands
+
+  FixedSupplyToken.deployed().then(a => console.log(a.address))
+ FixedSupplyToken.deployed().then(a => console.log(a.totalSupply().then(console.log)))
+
+FixedSupplyToken.deployed().then(a => console.log(a.balanceOf(accounts[0]).then(console.log)))
+
+ People.deployed().then(a => console.log(a.addPerson(“New”,”Sorawit”,22).then(console.log)))
